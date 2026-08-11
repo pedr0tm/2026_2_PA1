@@ -1,6 +1,7 @@
 # NOME PENDENTE
 
 ## EQUIPE
-- cdanielfl: Carlos Daniel
-- pedr0tm: Pedro Tomé
+- cdanielfl: Carlos Daniel Freitas Lima Lins
 - yyRed-dev: João Pedro Palhano Militão
+- ???: Paulo Haskley Queiroz De Lima
+- pedr0tm: Pedro Tomé Saldanha Lopes
