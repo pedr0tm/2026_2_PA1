@@ -4,7 +4,7 @@
 
 Cano estourou? Grama alta? Reforma sem saber por onde começar? O **Quebra Galho** reúne encanadores, eletricistas, jardineiros, pedreiros, marceneiros e outros profissionais em um só lugar, para que contratar um serviço seja rápido, transparente e confiável para os dois lados.
 
-📌 **Status:** etapa de descoberta e modelagem do negócio concluída. Início da estrutura de desenvolvimento do MVP na pasta [`dev/`](dev/).
+📌 **Status:** descoberta, modelagem do negócio e planejamento do projeto concluídos. Início do desenvolvimento do MVP na pasta [`dev/`](dev/).
 
 ---
 
@@ -17,6 +17,7 @@ Cano estourou? Grama alta? Reforma sem saber por onde começar? O **Quebra Galho
 - [Modelo de negócio](#-modelo-de-negócio)
 - [Concorrentes](#-concorrentes)
 - [Roadmap](#-roadmap)
+- [Planejamento do projeto](#-planejamento-do-projeto)
 - [Progresso](#-progresso)
 - [Documentação](#-documentação)
 - [Estrutura do repositório](#-estrutura-do-repositório)
@@ -129,6 +130,38 @@ As métricas de sucesso de cada fase estão no [Roadmap estratégico](docs/roadm
 
 ---
 
+## 🧭 Planejamento do projeto
+
+### Project Model Canvas
+
+O planejamento do projeto foi consolidado em um Project Model Canvas, que responde em um único quadro *por que*, *o que*, *quem*, *como*, *quando* e *quanto*.
+
+![Project Model Canvas do Quebra Galho](assets/project_model_canvas.png)
+
+| Pergunta | Resumo |
+|---|---|
+| **Por quê?** | Contratantes não encontram profissionais disponíveis, confiáveis e com preço justo; prestadores não encontram trabalho e sofrem com pagamentos injustos. |
+| **Objetivo SMART** | Lançar o MVP web até dez/2026, com cadastro, perfis, busca e solicitação de serviço, de modo que ≥ 30% das buscas resultem em contato ou solicitação nos primeiros 3 meses de uso. |
+| **O quê?** | Plataforma web responsiva que conecta contratantes a prestadores de serviços locais. |
+| **Quem?** | Prestadores, contratantes, provedores de pagamento, associações de profissionais, concorrentes e LGPD. |
+| **Como?** | Entregas em MVP e três versões (Confiança, Contratação e Pagamento), com equipe de 3 pessoas e sem orçamento. |
+| **Quando e quanto?** | MVP entre nov e dez/2026; versões seguintes ao longo de 2027; custo direto praticamente zero no MVP. |
+
+Versão em PDF (A1, para impressão): [Project Model Canvas](docs/PMC_Quebra_Galho.pdf).
+
+### Backlog de user stories
+
+As 37 user stories foram priorizadas por valor de negócio e risco na [planilha de planejamento](<docs/PlanejamentoUserStories (1).xlsx>). As primeiras iterações do MVP são:
+
+| Iteração | História | Pontos |
+|---|---|---|
+| 1 | Escolher tipo de usuário | 3 |
+| 1 | Cadastrar perfil de prestador | 2 |
+| 2 | Cadastrar usuário | 5 |
+| 3 | Autenticar usuário | 1 |
+
+---
+
 ## 📈 Progresso
 
 **Descoberta e modelagem**
@@ -144,6 +177,8 @@ As métricas de sucesso de cada fase estão no [Roadmap estratégico](docs/roadm
 - [x] Canvas de Proposta de Valor (prestador e contratante)
 - [x] Elevator pitch
 - [x] Roadmap estratégico
+- [x] Backlog de user stories priorizado
+- [x] Project Model Canvas
 - [ ] Mapas de empatia
 - [ ] Link do formulário de validação no documento
 
@@ -170,6 +205,8 @@ Os documentos ficam em [`docs/`](docs/) e as imagens dos diagramas em [`assets/`
 | 09 | Canvas de Proposta de Valor: [Prestador](assets/canvas_proposta_valor_p.png) · [Contratante](assets/canvas_proposta_valor_c.png) | Perfil do cliente e mapa de valor |
 | 10 | [Elevator pitch](docs/elevator_pitch.pdf) | Estrutura e texto do pitch |
 | 11 | [Roadmap estratégico](docs/roadmap_estrategico.pdf) | Fases do produto e métricas sugeridas |
+| 12 | [Planejamento de user stories](<docs/PlanejamentoUserStories (1).xlsx>) | Backlog priorizado por valor e risco, com iterações |
+| 13 | [Project Model Canvas](docs/PMC_Quebra_Galho.pdf) · [imagem](assets/project_model_canvas.png) | Planejamento do projeto em um único quadro |
 
 ---
 
@@ -177,9 +214,9 @@ Os documentos ficam em [`docs/`](docs/) e as imagens dos diagramas em [`assets/`
 
 ```
 2026_2_PA1/
-├── assets/   ← imagens dos diagramas (canvas)
+├── assets/   ← imagens dos diagramas (canvas e PMC)
 ├── dev/      ← código do MVP
-├── docs/     ← documentos do projeto em PDF
+├── docs/     ← documentos do projeto (PDF e planilha)
 └── README.md
 ```
 
